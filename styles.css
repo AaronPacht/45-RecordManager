@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+}
+
+label,input,button{
+    display: block;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: solid 1px black;
+    margin: 15px;
+    height: 80vh;
+}
+
+.new{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin: 15px;
+}
+
+form{
+    margin: 15px;
+}
+
+.each{
+    margin: 15px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+}
+
+.old{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+}
+
+.vinyl{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+
+.record{
+    position: relative;
+    border: solid 1px black;
+    margin: 15px;
+    height: fit-content;
+}
+
+.love{
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.likes{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-weight: bold;
+}
+
+.close{
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.info{
+    display: inline-block;
+}
